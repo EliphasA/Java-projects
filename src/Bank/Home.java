@@ -150,14 +150,14 @@ public class Home extends javax.swing.JFrame {
         Login.add(ForgetPassword);
         ForgetPassword.setBounds(386, 269, 117, 17);
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\EVM\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
         Login.add(jLabel7);
         jLabel7.setBounds(0, 0, 530, 330);
 
         MainPanel.add(Login);
         Login.setBounds(427, 168, 530, 330);
 
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\EVM\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
         MainPanel.add(jLabel3);
         jLabel3.setBounds(0, 0, 1370, 760);
 
@@ -189,17 +189,21 @@ public class Home extends javax.swing.JFrame {
                 Class.forName("com.mysql.cj.jdbc.Driver");
                 String url = "jdbc:sqlserver://localhost:1433; databaseName=Bank; user=sa; password=Nust2019";
                 Connection con = (Connection) DriverManager.getConnection(url);
-
+                
+                //Authenticating the user
                 String ver = "select * from Registration where Username=? and Password = ?";
                 PreparedStatement pre = con.prepareStatement(ver);
-
+                
+                //geting the username and password from the user and match them with the ones in the database
                 pre.setString(1, txtUsername.getText());
                 pre.setString(2, password);
                 ResultSet re = pre.executeQuery();
 
+                //granting the user access if the field details are matching with the ones in the database
                 if (re.next()) {
                     JOptionPane.showMessageDialog(null, "Login successfull!");
                     
+                    //switching panels
                     MainPanel.removeAll();
                     MainPanel.revalidate();
                     MainPanel.repaint();
@@ -275,6 +279,7 @@ public class Home extends javax.swing.JFrame {
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            //Main method of the application
             public void run() {
                 new Home().setVisible(true);
             }

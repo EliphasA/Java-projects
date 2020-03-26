@@ -223,9 +223,9 @@ public class Password extends javax.swing.JPanel {
         lblPassword.setFont(new java.awt.Font("Niagara Solid", 0, 20)); // NOI18N
         lblPassword.setForeground(new java.awt.Color(0, 204, 204));
 
-        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\EVM\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
+        jLabel7.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
 
-        lblBack.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\icons8-back-arrow-50.png")); // NOI18N
+        lblBack.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\icons8-back-arrow-50.png")); // NOI18N
         lblBack.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lblBack.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

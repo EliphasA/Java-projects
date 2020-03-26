@@ -200,7 +200,7 @@ public class OpenAccount extends javax.swing.JPanel {
                 .addGap(55, 55, 55))
         );
 
-        back.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\icons8-back-arrow-50.png")); // NOI18N
+        back.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\icons8-back-arrow-50.png")); // NOI18N
         back.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         back.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

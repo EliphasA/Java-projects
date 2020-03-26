@@ -130,7 +130,7 @@ public class Registration extends javax.swing.JPanel {
             }
         });
 
-        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\icons8-back-arrow-50.png")); // NOI18N
+        jLabel11.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\icons8-back-arrow-50.png")); // NOI18N
         jLabel11.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel11.addMouseListener(new java.awt.event.MouseAdapter() {
             public void mouseClicked(java.awt.event.MouseEvent evt) {

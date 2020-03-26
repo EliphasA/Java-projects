@@ -50,7 +50,7 @@ public class Menu extends javax.swing.JPanel {
 
         jLabel3.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         jLabel3.setForeground(new java.awt.Color(101, 111, 123));
-        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\logout.png")); // NOI18N
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\logout.png")); // NOI18N
         jLabel3.setText("Logout");
         jLabel3.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jLabel3.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -61,7 +61,7 @@ public class Menu extends javax.swing.JPanel {
 
         lblSettings.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         lblSettings.setForeground(new java.awt.Color(101, 111, 123));
-        lblSettings.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\gear.png")); // NOI18N
+        lblSettings.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\gear.png")); // NOI18N
         lblSettings.setText("Settings");
         lblSettings.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         lblSettings.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -75,7 +75,7 @@ public class Menu extends javax.swing.JPanel {
 
         btnOpen.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         btnOpen.setForeground(new java.awt.Color(101, 111, 123));
-        btnOpen.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\open acc.png")); // NOI18N
+        btnOpen.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\open acc.png")); // NOI18N
         btnOpen.setText("Open account");
         btnOpen.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnOpen.addActionListener(new java.awt.event.ActionListener() {
@@ -88,7 +88,7 @@ public class Menu extends javax.swing.JPanel {
 
         btnBalance.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         btnBalance.setForeground(new java.awt.Color(101, 111, 123));
-        btnBalance.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\money.png")); // NOI18N
+        btnBalance.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\money.png")); // NOI18N
         btnBalance.setText("Check balance");
         btnBalance.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnBalance.addActionListener(new java.awt.event.ActionListener() {
@@ -101,7 +101,7 @@ public class Menu extends javax.swing.JPanel {
 
         btnDeposit.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         btnDeposit.setForeground(new java.awt.Color(101, 111, 123));
-        btnDeposit.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\deposit.png")); // NOI18N
+        btnDeposit.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\deposit.png")); // NOI18N
         btnDeposit.setText("Deposit");
         btnDeposit.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         btnDeposit.addActionListener(new java.awt.event.ActionListener() {
@@ -114,7 +114,7 @@ public class Menu extends javax.swing.JPanel {
 
         jButton4.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         jButton4.setForeground(new java.awt.Color(101, 111, 123));
-        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\transfer.png")); // NOI18N
+        jButton4.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\transfer.png")); // NOI18N
         jButton4.setText("Transfer");
         jButton4.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton4.addActionListener(new java.awt.event.ActionListener() {
@@ -127,7 +127,7 @@ public class Menu extends javax.swing.JPanel {
 
         Transfer.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         Transfer.setForeground(new java.awt.Color(101, 111, 123));
-        Transfer.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\prepaid.png")); // NOI18N
+        Transfer.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\prepaid.png")); // NOI18N
         Transfer.setText("Pre-paid");
         Transfer.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         Transfer.addActionListener(new java.awt.event.ActionListener() {
@@ -140,7 +140,7 @@ public class Menu extends javax.swing.JPanel {
 
         jButton1.setFont(new java.awt.Font("Dialog", 0, 18)); // NOI18N
         jButton1.setForeground(new java.awt.Color(101, 111, 123));
-        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\E-BANK\\atm.png")); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\atm.png")); // NOI18N
         jButton1.setText("Withdraw");
         jButton1.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         jButton1.addMouseListener(new java.awt.event.MouseAdapter() {
@@ -156,11 +156,11 @@ public class Menu extends javax.swing.JPanel {
         jPanel3.add(jButton1);
         jButton1.setBounds(430, 50, 219, 80);
 
-        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\EVM\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
+        jLabel4.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
         jPanel3.add(jLabel4);
         jLabel4.setBounds(0, 0, 670, 540);
 
-        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\EVM\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
+        jLabel2.setIcon(new javax.swing.ImageIcon("C:\\Users\\digits\\Documents\\NetBeansProjects\\FisrtActualApp\\src\\Bank\\photo-of-a-laptop-and-a-tablet-on-the-table-2528118.jpg")); // NOI18N
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
